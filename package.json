@@ -1,0 +1,17 @@
+{
+  "name": "RSO-Services-Secondary",
+  "version": "0.0.1",
+  "description": "Secondary service for RSO project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wookia/RSO-Services-Secondary"
+  },
+  "homepage": "https://github.com/Wookia/RSO-Services-Secondary#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
