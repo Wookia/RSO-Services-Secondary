@@ -16,6 +16,7 @@ app.use(function (req, res, next) {
 });
 
 app.get('/secondary', (req, res) => {
+    console.log("Secondary");
     res.json({
         responseFrom: "secondary"
     });
